@@ -13,7 +13,7 @@ If you need to change it, edit src\main\resources\application.properties file.
 
 ## API documentation
 * [API documentation](http://localhost:8082/swagger-ui/index.html#/)
-* JavaDoc is generated in \target\site\apidocs folder ([index.html](target%2Fsite%2Fapidocs%2Findex.html) or IntelliJ's [JavaDoc documentation](http://localhost:63342/vending-machine/target/site/apidocs/index.html))
+* JavaDoc is generated in \target\site\apidocs folder (or IntelliJ's [JavaDoc documentation](http://localhost:63342/vending-machine/target/site/apidocs/index.html))
 
 ## How to test the API
 Integration tests are present for the controllers - InventoryControllerTest and VendingControllerTest,
