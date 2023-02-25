@@ -13,7 +13,7 @@ If you need to change it, edit src\main\resources\application.properties file.
 
 ## API documentation
 * [API documentation](http://localhost:8082/swagger-ui/index.html#/)
-* [JavaDoc documentation](http://localhost:63342/vending-machine/target/site/apidocs/index.html)
+* JavaDoc is generated in \target\site\apidocs folder ([JavaDoc documentation](http://localhost:63342/vending-machine/target/site/apidocs/index.html))
 
 ## How to test the API
 Integration tests are present for the controllers - InventoryControllerTest and VendingControllerTest,
@@ -48,3 +48,7 @@ Call it several times with different nominal to make sure we have enough amount.
 This buy the chips if we have enough money, otherwise will return error with message.
 
 For your convenience there are exported endpoint calls in file [vending-machine.postman_collection.json](vending-machine.postman_collection.json) for testing with Postman.
+
+## Possible improvements:
+* increase the number of test cases;
+* add more validations.
